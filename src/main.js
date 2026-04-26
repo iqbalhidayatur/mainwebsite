@@ -88,7 +88,7 @@ let previousMouseX = 0
 
 let baseRotation = 0
 let targetRotY = 0
-loader.load('/public/logo-model.glb', (gltf) => {
+loader.load('/logo-model.glb', (gltf) => {
   model = gltf.scene
 
   model.traverse((child) => {
