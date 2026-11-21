@@ -6,7 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -126,7 +125,7 @@ section {
   color: white;
   position: relative;
   overflow: hidden;
-  background-color: #9CD5FF;
+  background-color: #9cd5ff;
   margin: 0;
   padding: 0;
 }
@@ -165,26 +164,25 @@ section {
 }
 
 .custom-shape-divider-bottom-1777095571 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1777095571 svg {
-    position: relative;
-    display: block;
-    width: calc(161% + 1.3px);
-    height: 152px;
+  position: relative;
+  display: block;
+  width: calc(161% + 1.3px);
+  height: 152px;
 }
 
 .custom-shape-divider-bottom-1777095571 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
-
 
 canvas {
   width: 100%;
@@ -228,14 +226,14 @@ canvas {
   grid-row-gap: 10px;
 }
 
-.div1 { 
+.div1 {
   grid-area: 1 / 1 / 3 / 2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* From Uiverse.io by kennyotsu */ 
+/* From Uiverse.io by kennyotsu */
 /*works janky on mobile :<*/
 .card-image {
   position: absolute;
@@ -270,7 +268,12 @@ canvas {
   align-items: center;
   border-radius: 20px;
   transition: 700ms;
-  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+  background: linear-gradient(
+    43deg,
+    rgb(65, 88, 208) 0%,
+    rgb(200, 80, 192) 46%,
+    rgb(255, 204, 112) 100%
+  );
 }
 
 .subtitle {
@@ -329,7 +332,7 @@ canvas {
 
 .card-container:hover #card::before {
   transition: 200ms;
-  content: '';
+  content: "";
   opacity: 80%;
 }
 
@@ -342,7 +345,8 @@ canvas {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
-  grid-template-areas: "tr-1 tr-2 tr-3 tr-4 tr-5"
+  grid-template-areas:
+    "tr-1 tr-2 tr-3 tr-4 tr-5"
     "tr-6 tr-7 tr-8 tr-9 tr-10"
     "tr-11 tr-12 tr-13 tr-14 tr-15"
     "tr-16 tr-17 tr-18 tr-19 tr-20"
@@ -350,8 +354,14 @@ canvas {
 }
 
 #card::before {
-  content: '';
-  background: linear-gradient(43deg, rgb(0, 123, 255) 0%, rgb(0, 0, 139) 50%, rgb(255, 255, 255) 100%);  filter: blur(2rem);
+  content: "";
+  background: linear-gradient(
+    43deg,
+    rgb(0, 123, 255) 0%,
+    rgb(0, 0, 139) 50%,
+    rgb(255, 255, 255) 100%
+  );
+  filter: blur(2rem);
   opacity: 30%;
   width: 100%;
   height: 100%;
@@ -587,21 +597,20 @@ canvas {
 
 .noselect {
   -webkit-touch-callout: none;
-   /* iOS Safari */
+  /* iOS Safari */
   -webkit-user-select: none;
-   /* Safari */
-   /* Konqueror HTML */
+  /* Safari */
+  /* Konqueror HTML */
   -moz-user-select: none;
-   /* Old versions of Firefox */
+  /* Old versions of Firefox */
   -ms-user-select: none;
-   /* Internet Explorer/Edge */
+  /* Internet Explorer/Edge */
   user-select: none;
-   /* Non-prefixed version, currently
+  /* Non-prefixed version, currently
 									supported by Chrome, Edge, Opera and Firefox */
 }
 
-
-.div2 { 
+.div2 {
   grid-area: 1 / 2 / 3 / 5;
   background-color: white;
   color: #355872;
@@ -620,7 +629,7 @@ canvas {
   margin-top: 20px;
 }
 
-.div3 { 
+.div3 {
   grid-area: 3 / 1 / 5 / 3;
   margin-top: 50px;
 }
@@ -647,12 +656,12 @@ canvas {
   font-size: 1rem;
 }
 
-.div4 { 
+.div4 {
   grid-area: 3 / 3 / 5 / 5;
   margin-top: 50px;
 }
 
-.education{
+.education {
   margin-left: 50px;
 }
 
@@ -674,7 +683,7 @@ canvas {
   margin-top: 10px;
 }
 
-.div5 { 
+.div5 {
   grid-area: 5 / 1 / 7 / 5;
   display: flex;
   align-items: center;
@@ -720,7 +729,7 @@ canvas {
 .icon::after {
   content: attr(data-name);
   position: absolute;
-  bottom: 100%;       /* tepat di atas icon */
+  bottom: 100%; /* tepat di atas icon */
   left: 50%;
   transform: translateX(-50%) translateY(10px);
   margin-bottom: 25px; /* jarak dari icon */
@@ -785,27 +794,27 @@ canvas {
   top: 0;
   height: 100%;
   max-height: 100vh;
-  background-color: #9CD5FF;
+  background-color: #9cd5ff;
 }
 
 .custom-shape-divider-top-1777095444 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1777095444 svg {
-    position: relative;
-    display: block;
-    width: calc(150% + 1.3px);
-    height: 155px;
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 155px;
 }
 
 .custom-shape-divider-top-1777095444 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .quote-section h1 {
@@ -839,24 +848,24 @@ canvas {
 }
 
 .custom-shape-divider-bottom-1777095487 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1777095487 svg {
-    position: relative;
-    display: block;
-    width: calc(161% + 1.3px);
-    height: 141px;
+  position: relative;
+  display: block;
+  width: calc(161% + 1.3px);
+  height: 141px;
 }
 
 .custom-shape-divider-bottom-1777095487 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .project {
@@ -949,7 +958,7 @@ canvas {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 30px;
 }
 
@@ -995,7 +1004,7 @@ canvas {
 .project-preview img {
   width: 300px;
   border-radius: 15px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 /* muncul saat hover */
@@ -1015,27 +1024,27 @@ canvas {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #9CD5FF;
+  background-color: #9cd5ff;
 }
 
 .custom-shape-divider-top-1777129425 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1777129425 svg {
-    position: relative;
-    display: block;
-    width: calc(189% + 1.3px);
-    height: 194px;
+  position: relative;
+  display: block;
+  width: calc(189% + 1.3px);
+  height: 194px;
 }
 
 .custom-shape-divider-top-1777129425 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .contact-content {
@@ -1096,25 +1105,25 @@ canvas {
 }
 
 .custom-shape-divider-bottom-1777129471 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1777129471 svg {
-    position: relative;
-    display: block;
-    width: calc(189% + 1.3px);
-    height: 194px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(189% + 1.3px);
+  height: 194px;
+  transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1777129471 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /* mobile */
@@ -1124,11 +1133,13 @@ canvas {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .contact h1, .contact h2 {
+  .contact h1,
+  .contact h2 {
     font-size: 2.5rem;
   }
 
-  .hey, .home p {
+  .hey,
+  .home p {
     font-size: 2rem;
   }
 
@@ -1142,7 +1153,7 @@ canvas {
     text-align: start;
   }
 
-  .software-icon img{
+  .software-icon img {
     height: 80px;
     width: 80px;
   }
@@ -1151,32 +1162,32 @@ canvas {
     gap: 30px;
   }
 
-  .quote-section h1{
+  .quote-section h1 {
     font-size: 2.5rem;
   }
-  
-  .quote-section h2{
+
+  .quote-section h2 {
     font-size: 1.5rem;
   }
 
-  .project-content h1{
+  .project-content h1 {
     font-size: 1.5rem;
   }
-  
-  .project-content p{
+
+  .project-content p {
     font-size: 1.2rem;
   }
 
-  .project h1{
+  .project h1 {
     font-size: 2rem;
   }
 
-  .social-icon{
+  .social-icon {
     padding-top: 5%;
     font-size: 30px;
   }
 
-  .card-container{
+  .card-container {
     margin-top: 0;
   }
 
@@ -1192,12 +1203,21 @@ canvas {
     margin-left: 5%;
   }
 
-  .div1 { grid-area: 1 / 1 / 3 / 2; }
-  .div2 { grid-area: 1 / 2 / 3 / 5; }
-  .div3 { grid-area: 3 / 1 / 5 / 3; }
-  .div4 { grid-area: 3 / 3 / 5 / 5; }
-  .div5 { grid-area: 5 / 1 / 7 / 5; }
-
+  .div1 {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 3 / 5;
+  }
+  .div3 {
+    grid-area: 3 / 1 / 5 / 3;
+  }
+  .div4 {
+    grid-area: 3 / 3 / 5 / 5;
+  }
+  .div5 {
+    grid-area: 5 / 1 / 7 / 5;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1205,12 +1225,14 @@ canvas {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
-  
-  .contact h1, .contact h2 {
+
+  .contact h1,
+  .contact h2 {
     font-size: 2.5rem;
   }
 
-  .hey, .home p {
+  .hey,
+  .home p {
     font-size: 2rem;
   }
 
@@ -1223,7 +1245,7 @@ canvas {
     text-align: start;
   }
 
-  .software-icon img{
+  .software-icon img {
     height: 80px;
     width: 80px;
   }
@@ -1232,32 +1254,32 @@ canvas {
     gap: 30px;
   }
 
-  .quote-section h1{
+  .quote-section h1 {
     font-size: 2.5rem;
   }
-  
-  .quote-section h2{
+
+  .quote-section h2 {
     font-size: 1.5rem;
   }
 
-  .project-content h1{
+  .project-content h1 {
     font-size: 2rem;
   }
-  
-  .project-content p{
+
+  .project-content p {
     font-size: 1.2rem;
   }
 
-  .project h1{
+  .project h1 {
     font-size: 2.5rem;
   }
 
-  .social-icon{
+  .social-icon {
     padding-top: 5%;
     font-size: 30px;
   }
 
-  .card-container{
+  .card-container {
     margin-top: 0;
   }
 
@@ -1269,9 +1291,50 @@ canvas {
     margin-left: 5%;
   }
 
-  .div1 { grid-area: 1 / 1 / 3 / 2; }
-  .div2 { grid-area: 1 / 2 / 3 / 5; }
-  .div3 { grid-area: 3 / 1 / 5 / 3; }
-  .div4 { grid-area: 3 / 3 / 5 / 5; }
-  .div5 { grid-area: 5 / 1 / 7 / 5; }
+  .div1 {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 3 / 5;
+  }
+  .div3 {
+    grid-area: 3 / 1 / 5 / 3;
+  }
+  .div4 {
+    grid-area: 3 / 3 / 5 / 5;
+  }
+  .div5 {
+    grid-area: 5 / 1 / 7 / 5;
+  }
+}
+
+.journey-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 25px;
+    padding: 13px 22px;
+    border: 1px solid #477da8;
+    border-radius: 50px;
+    color: #477da8;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.journey-button i {
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+
+.journey-button:hover {
+    background: #477da8;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.journey-button:hover i {
+    transform: translate(3px, -3px);
 }
